@@ -1,0 +1,32 @@
+python main.py --mode train \
+               --name_data ETIR_1024_energy \
+               --dir_data ./datasets \
+               --dir_log ./log \
+               --dir_checkpoint ./checkpoint_Vesicle \
+               --batch_size 2 \
+               --num_epoch 15 \
+               --tilesize 128 \
+               --swap_region volume \
+               --swap_mode internal \
+               --lambda_exp 0.8 \
+               --lambda_grad 0.1 \
+               --lambda_TV 0.01 \
+               --lambda_median 0.0 \
+               --swap_ratio 0.1 \
+               --lr_G 0.0004 \
+               --train_continue on \
+               --dir_test_tomo ./Denoised_Vesicle \
+               --gpu_ids 0,1
+
+python main.py --mode test \
+               --name_data ETIR_1024_energy \
+               --dir_data ./datasets \
+               --dir_log ./log \
+               --dir_checkpoint ./checkpoint_Vesicle \
+               --dir_result ./results \
+               --batch_size 2 \
+               --tilesize 128 \
+               --padding 32 \
+               --swap_region volume \
+               --dir_test_tomo ./Denoised_Vesicle \
+               --gpu_ids 0,1
