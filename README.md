@@ -19,8 +19,8 @@ topaz-em 0.2.4 <br>
 numba 0.51.2 <br>
 
 ## Pretrained Model
- Pretrained models for real-world datasets : https://drive.google.com/file/d/18yaCdxlLbNU_eg1cIkgFIE9LpaxiF83E/view?usp=sharing  <br>
- Real-World Training dataset: https://drive.google.com/file/d/13wd6mlUqA47elQsOeFY8BmHN24hkffRe/view?usp=sharing 
+ Pretrained models for real-world datasets: <br> https://drive.google.com/file/d/18yaCdxlLbNU_eg1cIkgFIE9LpaxiF83E/view?usp=sharing  <br>
+ Real-World Training dataset: <br> https://drive.google.com/file/d/13wd6mlUqA47elQsOeFY8BmHN24hkffRe/view?usp=sharing 
 ## Usage
 #### Training data directory is advised to build as follow
 ```
