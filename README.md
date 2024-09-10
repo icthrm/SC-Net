@@ -39,4 +39,16 @@ DATASET_NAME
 ## Acknowledgement
 We sinceresly thank following work with their open-sourced code. <br>
 Bepler, T., Kelley, K., Noble, A.J., Berger, B. Topaz-Denoise: general deep denoising models for cryoEM and cryoET. Nat Commun 11, 5208 (2020). https://doi.org/10.1038/s41467-020-18952-1 <br>
-Alexander Krull, Tim-Oliver Buchholz, Florian Jug. Noise2Void - Learning Denoising From Single Noisy Images. Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2019, pp. 2129-2137.  https://arxiv.org/abs/1811.10980 <br>
+Alexander Krull, Tim-Oliver Buchholz, Florian Jug. Noise2Void - Learning Denoising From Single Noisy Images. Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2019, pp. 2129-2137.  https://arxiv.org/abs/1811.10980 <be>
+
+## Citation
+```
+@InProceedings{Yang_2021_ICCV,
+    author    = {Yang, Zhidong and Zhang, Fa and Han, Renmin},
+    title     = {Self-Supervised Cryo-Electron Tomography Volumetric Image Restoration From Single Noisy Volume With Sparsity Constraint},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2021},
+    pages     = {4056-4065}
+}
+```
